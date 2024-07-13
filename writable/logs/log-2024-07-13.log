@@ -1,0 +1,1015 @@
+CRITICAL - 2024-07-13 03:48:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dosen/list.php"
+[Method: GET, Route: dosen]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dosen/list.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dosen/list', [], true)
+ 3 APPPATH\Controllers\dosen.php(30): view('dosen/list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 03:50:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dosen/list.php"
+[Method: GET, Route: dosen]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dosen/list.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dosen/list', [], true)
+ 3 APPPATH\Controllers\dosen.php(30): view('dosen/list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 03:52:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dosen/list.php"
+[Method: GET, Route: dosen]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dosen/list.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dosen/list', [], true)
+ 3 APPPATH\Controllers\dosen.php(30): view('dosen/list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+INFO - 2024-07-13 03:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 03:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 03:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 03:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-13 03:57:20 --> mysqli_sql_exception: Unknown column 'matakuliah' in 'field list' in C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `do...', 0)
+#1 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\ci4UAS\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\ci4UAS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4UAS\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4UAS\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci4UAS\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci4UAS\app\Controllers\dosen.php(46): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+#10 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#11 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\ci4UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\ci4UAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-07-13 03:57:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'matakuliah' in 'field list'
+[Method: POST, Route: dosen/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`nama_dosen`, `matakuliah`) VALUES (:nama_dosen:, :matakuliah:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 03:57:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'matakuliah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`nama_dosen`, `matakuliah`) VALUES (\'wahyu\', \'Pemrograman\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`nama_dosen`, `matakuliah`) VALUES (\'wahyu\', \'Pemrograman\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`nama_dosen`, `matakuliah`) VALUES (:nama_dosen:, :matakuliah:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 03:57:20 --> [Caused by] mysqli_sql_exception: Unknown column 'matakuliah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `dosen` (`nama_dosen`, `matakuliah`) VALUES (\'wahyu\', \'Pemrograman\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`nama_dosen`, `matakuliah`) VALUES (\'wahyu\', \'Pemrograman\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`nama_dosen`, `matakuliah`) VALUES (\'wahyu\', \'Pemrograman\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`nama_dosen`, `matakuliah`) VALUES (:nama_dosen:, :matakuliah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+ERROR - 2024-07-13 03:58:32 --> mysqli_sql_exception: Unknown column 'matakuliah' in 'field list' in C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `do...', 0)
+#1 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\ci4UAS\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\ci4UAS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4UAS\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4UAS\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci4UAS\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci4UAS\app\Controllers\dosen.php(46): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+#10 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#11 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\ci4UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\ci4UAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-07-13 03:58:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'matakuliah' in 'field list'
+[Method: POST, Route: dosen/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (:nama_dosen:, :alamat_dosen:, :matakuliah:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 03:58:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'matakuliah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (:nama_dosen:, :alamat_dosen:, :matakuliah:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 03:58:32 --> [Caused by] mysqli_sql_exception: Unknown column 'matakuliah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (:nama_dosen:, :alamat_dosen:, :matakuliah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+ERROR - 2024-07-13 03:58:37 --> mysqli_sql_exception: Unknown column 'matakuliah' in 'field list' in C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `do...', 0)
+#1 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\ci4UAS\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\ci4UAS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4UAS\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4UAS\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci4UAS\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci4UAS\app\Controllers\dosen.php(46): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+#10 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#11 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\ci4UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\ci4UAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-07-13 03:58:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'matakuliah' in 'field list'
+[Method: POST, Route: dosen/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (:nama_dosen:, :alamat_dosen:, :matakuliah:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 03:58:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'matakuliah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (:nama_dosen:, :alamat_dosen:, :matakuliah:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 03:58:37 --> [Caused by] mysqli_sql_exception: Unknown column 'matakuliah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (:nama_dosen:, :alamat_dosen:, :matakuliah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+ERROR - 2024-07-13 04:04:28 --> mysqli_sql_exception: Unknown column 'matakuliah' in 'field list' in C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `do...', 0)
+#1 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\ci4UAS\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\ci4UAS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4UAS\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4UAS\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci4UAS\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci4UAS\app\Controllers\dosen.php(46): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+#10 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#11 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\ci4UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\ci4UAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-07-13 04:04:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'matakuliah' in 'field list'
+[Method: POST, Route: dosen/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (:nama_dosen:, :alamat_dosen:, :matakuliah:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:04:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'matakuliah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (:nama_dosen:, :alamat_dosen:, :matakuliah:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:04:28 --> [Caused by] mysqli_sql_exception: Unknown column 'matakuliah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (:nama_dosen:, :alamat_dosen:, :matakuliah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+ERROR - 2024-07-13 04:04:38 --> mysqli_sql_exception: Unknown column 'matakuliah' in 'field list' in C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `do...', 0)
+#1 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\ci4UAS\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\ci4UAS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4UAS\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4UAS\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci4UAS\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci4UAS\app\Controllers\dosen.php(46): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+#10 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#11 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\ci4UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\ci4UAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-07-13 04:04:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'matakuliah' in 'field list'
+[Method: POST, Route: dosen/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (:nama_dosen:, :alamat_dosen:, :matakuliah:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:04:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'matakuliah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (:nama_dosen:, :alamat_dosen:, :matakuliah:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:04:38 --> [Caused by] mysqli_sql_exception: Unknown column 'matakuliah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (:nama_dosen:, :alamat_dosen:, :matakuliah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+INFO - 2024-07-13 04:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-13 04:05:55 --> mysqli_sql_exception: Unknown column 'matakuliah' in 'field list' in C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `do...', 0)
+#1 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\ci4UAS\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\ci4UAS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4UAS\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4UAS\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci4UAS\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci4UAS\app\Controllers\dosen.php(46): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+#10 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#11 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\ci4UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\ci4UAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-07-13 04:05:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'matakuliah' in 'field list'
+[Method: POST, Route: dosen/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (:nama_dosen:, :alamat_dosen:, :matakuliah:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:05:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'matakuliah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (:nama_dosen:, :alamat_dosen:, :matakuliah:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:05:55 --> [Caused by] mysqli_sql_exception: Unknown column 'matakuliah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (\'wahyu\', \'serang\', \'Pemrograman\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`nama_dosen`, `alamat_dosen`, `matakuliah`) VALUES (:nama_dosen:, :alamat_dosen:, :matakuliah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+INFO - 2024-07-13 04:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-13 04:13:35 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: dosen/simpan]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+INFO - 2024-07-13 04:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-13 04:16:30 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: dosen/simpan]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\dosen.php(46): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->simpan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+INFO - 2024-07-13 04:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-13 04:17:58 --> ErrorException: Undefined array key "nama_dosen"
+[Method: GET, Route: dosen]
+in APPPATH\Views\list.php on line 95.
+ 1 APPPATH\Views\list.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_dosen"', 'C:\\xampp\\htdocs\\ci4UAS\\app\\Views\\list.php', 95)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4UAS\\app\\Views\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('list', [], true)
+ 5 APPPATH\Controllers\dosen.php(30): view('list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+INFO - 2024-07-13 04:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-13 04:18:45 --> mysqli_sql_exception: Unknown column 'dosen.nidn' in 'where clause' in C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4UAS\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4UAS\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4UAS\system\BaseModel.php(610): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\ci4UAS\app\Controllers\dosen.php(55): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(933): App\Controllers\Dosen->edit(1)
+#8 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#9 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci4UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\ci4UAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-07-13 04:18:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dosen.nidn' in 'where clause'
+[Method: GET, Route: dosen/edit/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = :dosen.nidn:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 1)
+ 4 APPPATH\Controllers\dosen.php(55): CodeIgniter\BaseModel->find(1)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->edit(1)
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:18:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dosen.nidn' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = :dosen.nidn:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 1)
+ 6 APPPATH\Controllers\dosen.php(55): CodeIgniter\BaseModel->find(1)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->edit(1)
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:18:45 --> [Caused by] mysqli_sql_exception: Unknown column 'dosen.nidn' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = :dosen.nidn:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 1)
+ 7 APPPATH\Controllers\dosen.php(55): CodeIgniter\BaseModel->find(1)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->edit(1)
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+ERROR - 2024-07-13 04:20:09 --> mysqli_sql_exception: Unknown column 'dosen.nidn' in 'where clause' in C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4UAS\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4UAS\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4UAS\system\BaseModel.php(610): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\ci4UAS\app\Controllers\dosen.php(55): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(933): App\Controllers\Dosen->edit(1)
+#8 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#9 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci4UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\ci4UAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-07-13 04:20:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dosen.nidn' in 'where clause'
+[Method: GET, Route: dosen/edit/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = :dosen.nidn:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 1)
+ 4 APPPATH\Controllers\dosen.php(55): CodeIgniter\BaseModel->find(1)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->edit(1)
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:20:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dosen.nidn' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = :dosen.nidn:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 1)
+ 6 APPPATH\Controllers\dosen.php(55): CodeIgniter\BaseModel->find(1)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->edit(1)
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:20:09 --> [Caused by] mysqli_sql_exception: Unknown column 'dosen.nidn' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = :dosen.nidn:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 1)
+ 7 APPPATH\Controllers\dosen.php(55): CodeIgniter\BaseModel->find(1)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->edit(1)
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+ERROR - 2024-07-13 04:20:12 --> mysqli_sql_exception: Unknown column 'dosen.nidn' in 'where clause' in C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4UAS\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4UAS\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4UAS\system\BaseModel.php(610): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\ci4UAS\app\Controllers\dosen.php(55): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(933): App\Controllers\Dosen->edit(1)
+#8 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#9 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci4UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\ci4UAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-07-13 04:20:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dosen.nidn' in 'where clause'
+[Method: GET, Route: dosen/edit/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = :dosen.nidn:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 1)
+ 4 APPPATH\Controllers\dosen.php(55): CodeIgniter\BaseModel->find(1)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->edit(1)
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:20:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dosen.nidn' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = :dosen.nidn:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 1)
+ 6 APPPATH\Controllers\dosen.php(55): CodeIgniter\BaseModel->find(1)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->edit(1)
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:20:12 --> [Caused by] mysqli_sql_exception: Unknown column 'dosen.nidn' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = :dosen.nidn:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 1)
+ 7 APPPATH\Controllers\dosen.php(55): CodeIgniter\BaseModel->find(1)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->edit(1)
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+ERROR - 2024-07-13 04:20:13 --> mysqli_sql_exception: Unknown column 'dosen.nidn' in 'where clause' in C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\ci4UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4UAS\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4UAS\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4UAS\system\BaseModel.php(610): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\ci4UAS\app\Controllers\dosen.php(55): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(933): App\Controllers\Dosen->edit(1)
+#8 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#9 C:\xampp\htdocs\ci4UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci4UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\ci4UAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-07-13 04:20:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dosen.nidn' in 'where clause'
+[Method: GET, Route: dosen/edit/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = :dosen.nidn:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 1)
+ 4 APPPATH\Controllers\dosen.php(55): CodeIgniter\BaseModel->find(1)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->edit(1)
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:20:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dosen.nidn' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = :dosen.nidn:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 1)
+ 6 APPPATH\Controllers\dosen.php(55): CodeIgniter\BaseModel->find(1)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->edit(1)
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:20:13 --> [Caused by] mysqli_sql_exception: Unknown column 'dosen.nidn' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dosen`
+WHERE `dosen`.`nidn` = :dosen.nidn:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 1)
+ 7 APPPATH\Controllers\dosen.php(55): CodeIgniter\BaseModel->find(1)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->edit(1)
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+INFO - 2024-07-13 04:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-13 04:44:54 --> ErrorException: Undefined array key "nama_dosen"
+[Method: GET, Route: dosen/hadir/1]
+in APPPATH\Controllers\dosen.php on line 84.
+ 1 APPPATH\Controllers\dosen.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_dosen"', 'C:\\xampp\\htdocs\\ci4UAS\\app\\Controllers\\dosen.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->hadir(1)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:45:47 --> ErrorException: file_get_contents(https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&amp;chat_id=-7160384060): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: dosen/hadir/1]
+in APPPATH\Controllers\dosen.php on line 94.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&amp;chat_id=-7160384060): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\ci4UAS\\app\\Controllers\\dosen.php', 94)
+ 2 APPPATH\Controllers\dosen.php(94): file_get_contents('https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&chat_id=-7160384060')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->hadir(1)
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:46:35 --> ErrorException: file_get_contents(https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&amp;chat_id=-7160384060): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: dosen/hadir/1]
+in APPPATH\Controllers\dosen.php on line 94.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&amp;chat_id=-7160384060): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\ci4UAS\\app\\Controllers\\dosen.php', 94)
+ 2 APPPATH\Controllers\dosen.php(94): file_get_contents('https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&chat_id=-7160384060')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->hadir(1)
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:46:38 --> ErrorException: file_get_contents(https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&amp;chat_id=-7160384060): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: dosen/hadir/1]
+in APPPATH\Controllers\dosen.php on line 94.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&amp;chat_id=-7160384060): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\ci4UAS\\app\\Controllers\\dosen.php', 94)
+ 2 APPPATH\Controllers\dosen.php(94): file_get_contents('https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&chat_id=-7160384060')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->hadir(1)
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:46:40 --> ErrorException: file_get_contents(https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&amp;chat_id=-7160384060): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: dosen/hadir/1]
+in APPPATH\Controllers\dosen.php on line 94.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&amp;chat_id=-7160384060): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\ci4UAS\\app\\Controllers\\dosen.php', 94)
+ 2 APPPATH\Controllers\dosen.php(94): file_get_contents('https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&chat_id=-7160384060')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->hadir(1)
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:46:41 --> ErrorException: file_get_contents(https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&amp;chat_id=-7160384060): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: dosen/hadir/1]
+in APPPATH\Controllers\dosen.php on line 94.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&amp;chat_id=-7160384060): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\ci4UAS\\app\\Controllers\\dosen.php', 94)
+ 2 APPPATH\Controllers\dosen.php(94): file_get_contents('https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&chat_id=-7160384060')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->hadir(1)
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:46:47 --> ErrorException: file_get_contents(https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&amp;chat_id=-7160384060): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: dosen/hadir/1]
+in APPPATH\Controllers\dosen.php on line 94.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&amp;chat_id=-7160384060): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\ci4UAS\\app\\Controllers\\dosen.php', 94)
+ 2 APPPATH\Controllers\dosen.php(94): file_get_contents('https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&chat_id=-7160384060')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->hadir(1)
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:48:30 --> ErrorException: file_get_contents(https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&amp;chat_id=7160384060): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+[Method: GET, Route: dosen/hadir/1]
+in APPPATH\Controllers\dosen.php on line 94.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&amp;chat_id=7160384060): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+', 'C:\\xampp\\htdocs\\ci4UAS\\app\\Controllers\\dosen.php', 94)
+ 2 APPPATH\Controllers\dosen.php(94): file_get_contents('https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&chat_id=7160384060')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->hadir(1)
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+CRITICAL - 2024-07-13 04:48:33 --> ErrorException: file_get_contents(https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&amp;chat_id=7160384060): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+[Method: GET, Route: dosen/hadir/1]
+in APPPATH\Controllers\dosen.php on line 94.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&amp;chat_id=7160384060): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+', 'C:\\xampp\\htdocs\\ci4UAS\\app\\Controllers\\dosen.php', 94)
+ 2 APPPATH\Controllers\dosen.php(94): file_get_contents('https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&chat_id=7160384060')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->hadir(1)
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+INFO - 2024-07-13 04:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-13 04:49:29 --> ErrorException: file_get_contents(https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&amp;chat_id=7160384060): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+[Method: GET, Route: dosen/hadir/1]
+in APPPATH\Controllers\dosen.php on line 94.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&amp;chat_id=7160384060): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+', 'C:\\xampp\\htdocs\\ci4UAS\\app\\Controllers\\dosen.php', 94)
+ 2 APPPATH\Controllers\dosen.php(94): file_get_contents('https://api.telegram.org/bot7160384060:AAFxt0ClvQMFhrt00QxM44fowPP2_pgiHYA/sendMessage?text=Assalamualaikum+%0Adosen+wahyu+dengan+matakuliah+sunda++hari+ini+masuk+%0A+Terimakasih+&chat_id=7160384060')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->hadir(1)
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4UAS\\public\\index.php')
+INFO - 2024-07-13 04:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 04:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-13 05:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
